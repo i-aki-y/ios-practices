@@ -1,0 +1,24 @@
+PODS:
+  - ImpressiveNotifications (0.5.0)
+  - lottie-ios (3.1.8)
+  - SegementSlide (2.2.3)
+
+DEPENDENCIES:
+  - ImpressiveNotifications
+  - lottie-ios
+  - SegementSlide
+
+SPEC REPOS:
+  trunk:
+    - ImpressiveNotifications
+    - lottie-ios
+    - SegementSlide
+
+SPEC CHECKSUMS:
+  ImpressiveNotifications: 9a3921276e916e244abb7e4b2a6661133479a17c
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  SegementSlide: 7a35da31eaa87fa0af42cc402395821a0c6835ae
+
+PODFILE CHECKSUM: 4735fbe9e4e94309f4b4e403d20c19d392a9643f
+
+COCOAPODS: 1.9.1
