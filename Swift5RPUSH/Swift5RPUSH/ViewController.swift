@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Swift5IntroApp
+//  Swift5RPUSH
 //
-//  Created by AkiyukiIshikawa on 2020/05/05.
+//  Created by AkiyukiIshikawa on 2020/05/06.
 //  Copyright © 2020 AkiyukiIshikawa. All rights reserved.
 //
 
