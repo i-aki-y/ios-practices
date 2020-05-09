@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		3A7CA55E246246670030AEA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7CA55C246246670030AEA1 /* Main.storyboard */; };
 		3A7CA560246246680030AEA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7CA55F246246680030AEA1 /* Assets.xcassets */; };
 		3A7CA563246246680030AEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7CA561246246680030AEA1 /* LaunchScreen.storyboard */; };
+		3A7CA56B246249FD0030AEA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A7CA56A246249FD0030AEA1 /* GoogleService-Info.plist */; };
+		A5CC4D8751770D64EB15E15A /* Pods_Swift5RPUSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5365B06DF8BA91C8298A59 /* Pods_Swift5RPUSH.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,11 @@
 		3A7CA55F246246680030AEA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7CA562246246680030AEA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A7CA564246246680030AEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7CA56A246249FD0030AEA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A7CA56C24624C3F0030AEA1 /* Swift5RPUSH.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift5RPUSH.entitlements; sourceTree = "<group>"; };
+		63E85964F3602A080A515168 /* Pods-Swift5RPUSH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5RPUSH.release.xcconfig"; path = "Target Support Files/Pods-Swift5RPUSH/Pods-Swift5RPUSH.release.xcconfig"; sourceTree = "<group>"; };
+		8C5365B06DF8BA91C8298A59 /* Pods_Swift5RPUSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5RPUSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B471C7C81D07446D9EEDB89 /* Pods-Swift5RPUSH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5RPUSH.debug.xcconfig"; path = "Target Support Files/Pods-Swift5RPUSH/Pods-Swift5RPUSH.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CC4D8751770D64EB15E15A /* Pods_Swift5RPUSH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E2C43977D3F3AEC754578BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5365B06DF8BA91C8298A59 /* Pods_Swift5RPUSH.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A7CA54A246246670030AEA1 = {
 			isa = PBXGroup;
 			children = (
 				3A7CA555246246670030AEA1 /* Swift5RPUSH */,
 				3A7CA554246246670030AEA1 /* Products */,
+				C24D38C9CCAAE5C6A9E46C64 /* Pods */,
+				2E2C43977D3F3AEC754578BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +74,7 @@
 		3A7CA555246246670030AEA1 /* Swift5RPUSH */ = {
 			isa = PBXGroup;
 			children = (
+				3A7CA56C24624C3F0030AEA1 /* Swift5RPUSH.entitlements */,
 				3A7CA556246246670030AEA1 /* AppDelegate.swift */,
 				3A7CA558246246670030AEA1 /* SceneDelegate.swift */,
 				3A7CA55A246246670030AEA1 /* ViewController.swift */,
@@ -63,8 +82,18 @@
 				3A7CA55F246246680030AEA1 /* Assets.xcassets */,
 				3A7CA561246246680030AEA1 /* LaunchScreen.storyboard */,
 				3A7CA564246246680030AEA1 /* Info.plist */,
+				3A7CA56A246249FD0030AEA1 /* GoogleService-Info.plist */,
 			);
 			path = Swift5RPUSH;
+			sourceTree = "<group>";
+		};
+		C24D38C9CCAAE5C6A9E46C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B471C7C81D07446D9EEDB89 /* Pods-Swift5RPUSH.debug.xcconfig */,
+				63E85964F3602A080A515168 /* Pods-Swift5RPUSH.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7CA567246246680030AEA1 /* Build configuration list for PBXNativeTarget "Swift5RPUSH" */;
 			buildPhases = (
+				39BB3665E0E53948F63F0D64 /* [CP] Check Pods Manifest.lock */,
 				3A7CA54F246246670030AEA1 /* Sources */,
 				3A7CA550246246670030AEA1 /* Frameworks */,
 				3A7CA551246246670030AEA1 /* Resources */,
+				A26F918782D62030C147D7B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +157,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7CA563246246680030AEA1 /* LaunchScreen.storyboard in Resources */,
+				3A7CA56B246249FD0030AEA1 /* GoogleService-Info.plist in Resources */,
 				3A7CA560246246680030AEA1 /* Assets.xcassets in Resources */,
 				3A7CA55E246246670030AEA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39BB3665E0E53948F63F0D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5RPUSH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26F918782D62030C147D7B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5RPUSH/Pods-Swift5RPUSH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5RPUSH/Pods-Swift5RPUSH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5RPUSH/Pods-Swift5RPUSH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A7CA54F246246670030AEA1 /* Sources */ = {
@@ -282,8 +356,10 @@
 		};
 		3A7CA568246246680030AEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B471C7C81D07446D9EEDB89 /* Pods-Swift5RPUSH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift5RPUSH/Swift5RPUSH.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Swift5RPUSH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,14 +369,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.akiyukiishikawa.Swift5RPUSH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3A7CA569246246680030AEA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E85964F3602A080A515168 /* Pods-Swift5RPUSH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift5RPUSH/Swift5RPUSH.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Swift5RPUSH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.akiyukiishikawa.Swift5RPUSH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
